@@ -1,0 +1,255 @@
+<!DOCTYPE html=es>
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <a href="#" class="scrolltop" id="scroll-top">
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="js/jquery-3.6.0.min.js"></script>
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+        <link rel="stylesheet" href="css/estilo.css">
+        <title>Tienda virtual</title>
+    </head>
+
+<body class="body" id="body">
+    
+    <header class="header" id="header">
+        <div class="barra_nav" id="barra_nav">
+            <div class="logo_content">
+                <a href="index.html" class="logo" id="logo">Tienda virtual</a>
+            </div>
+            <nav class="menu_container" id="menu_container">
+                <div class="icon_menu">
+                    <i class='bx bx-menu'></i>
+                </div>
+                <ul class="menu_content">
+                    <li class="menu_item"><a href="">Alimentos y despensa</a><i class='bx bx-chevron-right'></i></li>
+                    <li class="menu_item"><a href="">Hogar</a><i class='bx bx-chevron-right'></i></li>
+                    <li class="menu_item"><a href="">Aseo y cuidado personal</a><i class='bx bx-chevron-right'></i></li>
+                    <li class="menu_item"><a href="">Bebé</a><i class='bx bx-chevron-right'></i></li>
+                    <li class="menu_item"><a href="">Bebidas</a><i class='bx bx-chevron-right'></i></li>
+                    <li class="menu_item"><a href="">Congelados</a><i class='bx bx-chevron-right'></i></li>
+                    <li class="menu_item"><a href="">Extraordinarios</a><i class='bx bx-chevron-right'></i></li>
+                    <li class="menu_item"><a href="">Lácteos</a><i class='bx bx-chevron-right'></i></li>
+                    <li class="menu_item"><a href="">Lo nuevo</a><i class='bx bx-chevron-right'></i></li>
+                    <li class="menu_item"><a href="">Mascotas</a><i class='bx bx-chevron-right'></i></li>
+                    <li class="menu_item"><a href="">Otros</a><i class='bx bx-chevron-right'></i></li>
+                </ul>
+            </nav>
+            <div class="search_container">
+                <div class="search_content">
+                    <input class="search" type="search" placeholder="Buscar " name="search" id="search">
+                </div>
+            </div>
+            <div class="user_container">
+                <div class="user_content">
+                    <a class="btn_iniciar_session">Ingresar/Registrarse</a>
+                    <div class="panel_user">
+                        <form class="fomrulario_de_ingreso" action="">
+                            <input class="id_user" type="user" required="" placeholder="Usuario / correo" autocomplete name="id_user"></input>
+                            <input class="contraseña" type="password" required="" placeholder="Contraseña"     name="contraseña"></input>
+                            <button class="iniciar_session" type="submit">Iniciar sesión</button>
+                            <button class="registrarse" type="submit">Registrarse</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="carrito_container">
+                <div class="carrito_content"></div>
+                <i class='bx bx-cart'></i>
+                <div class="panel_de_compras"></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section_banners_container">
+            <div class="boton_atras_banners">
+                <i class='bx bx-chevron-left' ></i>
+            </div>
+            <div class="banners_content">
+                <img src="imagenes/banner_home_1.png" alt="">
+            </div>
+            <div class="boton_siguiente_banners">
+                <i class='bx bx-chevron-right' ></i>
+            </div>
+        </section>
+
+        <section class="section_products_alimentos_y_despensa">
+            <div class="container_productos_alimentos_y_despensa">
+                <div class="titulo_categorias">Alimentos y despensa</div>
+                <div class="productos_content_principales_slider">
+                    <div class="cuadros_productos_alimentos_y_despensa">
+                        <img class="Imagen_producto" src="imagenes/salchichon_rica.png" alt="">
+                        <p  class="valor_producto">$12.000</p>
+                        <h3 class="nombre_producto">Salchichon Rica</h3>
+                        <p  class="descripcion_producto">284 g (g a $38,7)</p>
+                        <div class="icon_agregar">
+                            <i class='bx bx-plus' ></i>
+                        </div>
+                    </div>
+                    <div class="cuadros_productos_alimentos_y_despensa">
+                        <img class="Imagen_producto" src="imagenes/frijol_chino.png" alt="">
+                        <p  class="valor_producto">$12.000</p>
+                        <h3 class="nombre_producto">Frijol Chino</h3>
+                        <p  class="descripcion_producto">284 g (g a $38,7)</p>
+                        <div class="icon_agregar">
+                            <i class='bx bx-plus' ></i>
+                        </div>
+                    </div>
+                    <div class="cuadros_productos_alimentos_y_despensa">
+                        <img class="Imagen_producto" src="imagenes/mazamorra.png" alt="">
+                        <p  class="valor_producto">$12.000</p>
+                        <h3 class="nombre_producto">Mazamorra</h3>
+                        <p  class="descripcion_producto">284 g (g a $38,7)</p>
+                        <div class="icon_agregar">
+                            <i class='bx bx-plus' ></i>
+                        </div>
+                    </div>
+                    <div class="cuadros_productos_alimentos_y_despensa">
+                        <img class="Imagen_producto" src="imagenes/menestras.png" alt="">
+                        <p  class="valor_producto">$12.000</p>
+                        <h3 class="nombre_producto">Menestras Costeña</h3>
+                        <p  class="descripcion_producto">284 g (g a $38,7)</p>
+                        <div class="icon_agregar">
+                            <i class='bx bx-plus' ></i>
+                        </div>
+                    </div>
+                    <div class="cuadros_productos_alimentos_y_despensa">
+                        <img class="Imagen_producto" src="imagenes/botella de agua.png" alt="">
+                        <p  class="valor_producto">$12.000</p>
+                        <h3 class="nombre_producto">Agua Clarity</h3>
+                        <p  class="descripcion_producto">284 g (g a $38,7)</p>
+                        <div class="icon_agregar">
+                            <i class='bx bx-plus' ></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_productos_hogar">
+            <div class="container_productos_hogar">
+                <div class="titulo_categorias">Hogar</div>
+                <div class="productos_content_principales_slider">
+                    <div class="cuadros_productos_hogar">
+                        <img class="Imagen_producto" src="imagenes/salchichon_rica.png" alt="">
+                        <p  class="valor_producto">$12.000</p>
+                        <h3 class="nombre_producto">Salchichon Rica</h3>
+                        <p  class="descripcion_producto">284 g (g a $38,7)</p>
+                        <div class="icon_agregar">
+                            <i class='bx bx-plus' ></i>
+                        </div>
+                    </div>
+                    <div class="cuadros_productos_alimentos_y_despensa">
+                        <img class="Imagen_producto" src="imagenes/frijol_chino.png" alt="">
+                        <p  class="valor_producto">$12.000</p>
+                        <h3 class="nombre_producto">Frijol Chino</h3>
+                        <p  class="descripcion_producto">284 g (g a $38,7)</p>
+                        <div class="icon_agregar">
+                            <i class='bx bx-plus' ></i>
+                        </div>
+                    </div>
+                    <div class="cuadros_productos_alimentos_y_despensa">
+                        <img class="Imagen_producto" src="imagenes/mazamorra.png" alt="">
+                        <p  class="valor_producto">$12.000</p>
+                        <h3 class="nombre_producto">Mazamorra</h3>
+                        <p  class="descripcion_producto">284 g (g a $38,7)</p>
+                        <div class="icon_agregar">
+                            <i class='bx bx-plus' ></i>
+                        </div>
+                    </div>
+                    <div class="cuadros_productos_alimentos_y_despensa">
+                        <img class="Imagen_producto" src="imagenes/menestras.png" alt="">
+                        <p  class="valor_producto">$12.000</p>
+                        <h3 class="nombre_producto">Menestras Costeña</h3>
+                        <p  class="descripcion_producto">284 g (g a $38,7)</p>
+                        <div class="icon_agregar">
+                            <i class='bx bx-plus' ></i>
+                        </div>
+                    </div>
+                    <div class="cuadros_productos_alimentos_y_despensa">
+                        <img class="Imagen_producto" src="imagenes/botella de agua.png" alt="">
+                        <p  class="valor_producto">$12.000</p>
+                        <h3 class="nombre_producto">Agua Clarity</h3>
+                        <p  class="descripcion_producto">284 g (g a $38,7)</p>
+                        <div class="icon_agregar">
+                            <i class='bx bx-plus' ></i>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+
+        <section class="section_products_alimentos_y_despensa">
+            <div class="container_productos_alimentos_y_despensa">
+                <div class="titulo_categorias">Alimentos y despensa</div>
+                <div class="productos_content_principales_slider">
+                    <div class="cuadros_productos_alimentos_y_despensa">
+                        <img class="Imagen_producto" src="imagenes/salchichon_rica.png" alt="">
+                        <p  class="valor_producto">$12.000</p>
+                        <h3 class="nombre_producto">Salchichon Rica</h3>
+                        <p  class="descripcion_producto">284 g (g a $38,7)</p>
+                        <div class="icon_agregar">
+                            <i class='bx bx-plus' ></i>
+                        </div>
+                    </div>
+                    <div class="cuadros_productos_alimentos_y_despensa">
+                        <img class="Imagen_producto" src="imagenes/frijol_chino.png" alt="">
+                        <p  class="valor_producto">$12.000</p>
+                        <h3 class="nombre_producto">Frijol Chino</h3>
+                        <p  class="descripcion_producto">284 g (g a $38,7)</p>
+                        <div class="icon_agregar">
+                            <i class='bx bx-plus' ></i>
+                        </div>
+                    </div>
+                    <div class="cuadros_productos_alimentos_y_despensa">
+                        <img class="Imagen_producto" src="imagenes/mazamorra.png" alt="">
+                        <p  class="valor_producto">$12.000</p>
+                        <h3 class="nombre_producto">Mazamorra</h3>
+                        <p  class="descripcion_producto">284 g (g a $38,7)</p>
+                        <div class="icon_agregar">
+                            <i class='bx bx-plus' ></i>
+                        </div>
+                    </div>
+                    <div class="cuadros_productos_alimentos_y_despensa">
+                        <img class="Imagen_producto" src="imagenes/menestras.png" alt="">
+                        <p  class="valor_producto">$12.000</p>
+                        <h3 class="nombre_producto">Menestras Costeña</h3>
+                        <p  class="descripcion_producto">284 g (g a $38,7)</p>
+                        <div class="icon_agregar">
+                            <i class='bx bx-plus' ></i>
+                        </div>
+                    </div>
+                    <div class="cuadros_productos_alimentos_y_despensa">
+                        <img class="Imagen_producto" src="imagenes/botella de agua.png" alt="">
+                        <p  class="valor_producto">$12.000</p>
+                        <h3 class="nombre_producto">Agua Clarity</h3>
+                        <p  class="descripcion_producto">284 g (g a $38,7)</p>
+                        <div class="icon_agregar">
+                            <i class='bx bx-plus' ></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer" id="footer">
+        <div class="content_terminos_y_condiciones">Aplica terminos y condiciones</div>
+        <div class="content_copyright">Copyright©2021</div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</body>
+
+
+</html>
