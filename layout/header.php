@@ -53,7 +53,7 @@
                         <form class="fomrulario_de_ingreso" action="#">
                             <input class="id_user" type="user" required="" placeholder="Usuario / correo" autocomplete name="id_user"></input>
                             <input class="contraseña" id="input_contraseña" type="password" required="" placeholder="Contraseña" name="contraseña">
-                            <img src="./imagenes/icons/icon_passwd_black.png" alt="" class="icon_password" id="icon_password" onClick="hideOrShowPassword()">
+                            <img src="./imagenes/icons/icon_passwd_black.png" alt="" class="panel_user_icon_password" id="panel_user_icon_password" onClick="hideOrShowPassword()">
                             <button class="iniciar_session" type="submit">Iniciar sesión</button>
                         </form>    
                         <button class="registrarse" type="submit"><a href="./registro.php">Registrarse</a></button>

@@ -66,13 +66,30 @@ jQuery('document').ready(function($) {
 });
 
 
-/*==========SHOW PASSWD=========*/
+/*==========SHOW PASSWD PANEL USER=========*/
 
 function hideOrShowPassword(){
     var input_contraseña,icon_password;
   
     input_contraseña=document.getElementById("input_contraseña");
-    icon_password=document.getElementById("icon_password");
+    icon_password=document.getElementById("panel_user_icon_password");
+
+    if(input_contraseña.type == "password") {
+        input_contraseña.type = "text";
+    } else {
+        input_contraseña.type = "password";
+    }
+
+  }
+
+
+  /*==========SHOW PASSWD REGISTRO=========*/
+
+function hideOrShowPasswordResgitro(){
+    var input_contraseña,icon_password;
+  
+    input_contraseña=document.getElementById("input_contraseña");
+    icon_password=document.getElementById("panel_user_icon_password");
 
     if(input_contraseña.type == "password") {
         input_contraseña.type = "text";
