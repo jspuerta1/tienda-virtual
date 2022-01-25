@@ -48,7 +48,6 @@
                             $verify = file_get_contents($url, false, $context);
                             $captcha_success = json_decode($verify);
                             $captcha_response = $captcha_success->success;
-                        
                             if ($captcha_response) {
                                 echo '<p class="alert alert-success">Procesar datos...</p>';
                             } else {
@@ -60,7 +59,6 @@
             </form>
         </section>
     </main>
-
     <script src="https://www.google.com/recaptcha/api.js"></script>
 
 <?php require('./layout/footer.php');

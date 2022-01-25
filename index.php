@@ -1,5 +1,4 @@
 <?php require('./layout/header.php') ?>
-
     <main>
         <section class="section_banners_container">
             <div class="boton_atras_banners">
@@ -12,7 +11,6 @@
                 <i class='bx bx-chevron-right' ></i>
             </div>
         </section>
-
         <section class="section_products_alimentos_y_despensa">
             <div class="container_productos_alimentos_y_despensa">
                 <div class="titulo_categorias">Alimentos y despensa</div>

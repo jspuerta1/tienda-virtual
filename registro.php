@@ -22,19 +22,15 @@ if (isset($_POST['registrar'])) {
          ('$nombre','$usuario','$contraseña1','$correo','$telefono','$direccion','$fecha','$tipo_documento')"; //se requiere hacer modificacion en esta consulta  con respecto a las tablas de la base de datos
         $resultado= mysqli_query($conexion,$consulta);
         if($resultado){
-
-
             ?>
             <h3> inscripcion exitosa  </h3>
             <?php
         }else{
-
             ?>
             <h3> ha ocurrido un error   </h3>
             <?php
         }
     }
 } else {
-
     echo "se deben llenar todos los campos";
 }
